@@ -1,0 +1,11 @@
+{
+  "require":{
+    "mustache/mustache":"^2.11"
+  },
+  "require-dev":{
+    "monolog/monolog":"~1.17"
+  },
+  "scripts":{
+    "post-install-cmd":"echo \"Hello World\""
+  }
+}

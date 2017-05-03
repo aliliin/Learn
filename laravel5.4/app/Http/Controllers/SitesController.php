@@ -14,7 +14,7 @@ class SitesController extends Controller
 
     public function about()
     {
-        $first = '高永立';
+        $first = 'YongLiGao';
         return view('sites.about', compact('first'));
     }
 }

@@ -15,6 +15,17 @@ class SitesController extends Controller
     public function about()
     {
         $first = 'YongLiGao';
-        return view('sites.about', compact('first'));
+        $people = [
+             'gaoyongli',
+             'yongligao',
+             'YongLiGao'
+        ];
+        $p = [];
+        return view('sites.about', compact('first','people','p'));
+    }
+
+    public function contact()
+    {
+            return view('Sites.contact');
     }
 }

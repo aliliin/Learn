@@ -53,4 +53,6 @@
     minute   hour   day   month   week   command     顺序：分 时 日 月 周 <br>
     每小时执行/etc/cron.hourly目录内的脚本 <br>
     01 * * * * root run-parts /etc/cron.hourly
-    
+
+### 好完的命令
+- cal:命令行里面展示日历   

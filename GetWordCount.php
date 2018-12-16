@@ -7,10 +7,15 @@
  * countWords("What an easy task, right") ➞ 5
  */
 
+//  str_word_count 函数
+//  str_word_count — 返回字符串中单词的使用情况
+
 class CountWords
 {
     public function countWords($str)
     {
+        return str_word_count($str);
         return count(explode(' ', $str));
+
     }
 }

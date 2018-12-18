@@ -17,3 +17,38 @@ function findSmallestNum($arr)
 }
 
 echo findSmallestNum($arr);
+
+/**
+ * 给定一个数字来确定是偶数还是整数
+ */
+$num = 23;
+function isEvenOrOdd($num)
+{
+    return $num % 2 ? "even" : "odd";
+
+}
+echo isEvenOrOdd($arr);
+
+/**
+ *  给定一个数字 算出累计值
+ */
+$num = 23;
+function addUp($num)
+{
+    return ($num * ($num + 1)) / 2;
+}
+echo addUp($num);
+
+$numbers   = 132;
+$numberArr = [1, 3, 2, 4, 9, 5, 6, 7, 8];
+function formatPhoneNumber($numbers, $numberArr)
+{
+    // 取出最后一位
+    $endStr  = substr($numbers, -1, 1);
+    $number  = stripos($endStr, $numberArr);
+    $number  = substr($number, 0, 2);
+    $number1 = substr($number, 2);
+    $str     = $number . '-' . $number1;
+
+}
+echo formatPhoneNumber($numbers, $numberArr);

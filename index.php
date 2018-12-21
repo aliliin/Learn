@@ -1,20 +1,40 @@
 <?php
 echo '<pre/>';
 
-// public function test()
-// {
-//   $this->assertEquals("es", getMiddle("test"));
-//   $this->assertEquals("t", getMiddle("testing"));
-//   $this->assertEquals("dd", getMiddle("middle"));
-//   $this->assertEquals("A", getMiddle("A"));
-//   $this->assertEquals("bi", getMiddle("inhabitant"));
-//   $this->assertEquals("o", getMiddle("brown"));
-//   $this->assertEquals("aw", getMiddle("pawn"));
-//   $this->assertEquals("i", getMiddle("cabinet"));
-//   $this->assertEquals("e", getMiddle("fresh"));
-//   $this->assertEquals("or", getMiddle("shorts"));
-// }
+// 创建一个函数，该函数接受一组名称并返回一个首字母大写的数组。
+$arr    = ['mARIANN', 'jOI', 'gEORGEANN'];
+$newArr = [];
+array_map('ucfirst', array_map('strtolower', $arr));
+foreach ($arr as $str) {
 
+    $str      = strtolower($str);
+    $newArr[] = ucwords($str);
+}
+var_dump($newArr);die;
+// 创建一个函数，该函数采用1到10之间的数字数组（不包括一个数字）并返回缺少的数字。
+/*
+[1, 2, 3, 4, 6, 7, 8, 9, 10] ➞ 5
+ */
+$arr = [7, 2, 3, 6, 5, 9, 1, 4, 8];
+
+echo 55 - array_sum($arr);
+die;
+//   创建一个函数，该函数接受一个数字数组并返回一个数组，其中每个数字是其自身的总和+数组中的所有先前数字。
+$arr = [3, 3, -2, 408, 3, 3];
+// [3, 3, -2, 408, 3, 3] ➞ [3, 6, 4, 412, 415, 418]
+
+$newArr = array();
+$sum    = 0;
+foreach ($array as $n) {
+    $sum += $n;
+    $newArr[] = $sum;
+}
+return $newArr;
+
+// 创建一个带有数字数组的函数，并将平均值作为字符串返回。
+$arr = [1, 0, 4, 5, 2, 4, 1, 2, 3, 3, 3];
+echo round(array_sum($arr) / count($arr), 2);
+die;
 $arr = str_split("testing");
 $num = count($arr);
 if ($num % 2 === 0) {

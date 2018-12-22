@@ -1,6 +1,39 @@
 <?php
 echo '<pre/>';
+// 创建一个获取数字数组并仅返回偶数值的函数。
+//[1, 2, 3, 4, 5, 6, 7, 8] ➞ [2, 4, 6, 8];
+$array1 = [1, 2, 3, 4, 5, 6, 7, 8];
+$array2 = array(6, 7, 8, 9, 10, 11, 12);
 
+echo "Odd :\n";
+print_r(array_filter($array1, function ($key) {
+    return $key % 2 === 0;
+}));
+echo "Even:\n";
+print_r(array_filter($array2, "even"));die;
+$arr = [1, 2, 3, 4, 5, 6, 7, 8];
+var_dump(array_filter($arr, "even"));die;
+// 创建一个函数，该函数将任何非负数作为参数，并以降序返回数字。降序是指从最高到最低排序。
+// $this->assertEquals(977766200, sortDecending(670276097));
+// 1254859723 ➞ 9875543221
+$numbersStr = 670276097;
+$arr        = str_split($numbersStr);
+rsort($arr);
+$str = implode($arr);
+var_dump($str);
+die;
+// 创建一个采用字符串数组的函数。返回数组中恰好是四个字母的所有单词。
+// ["Ryan", "Kieran", "Jason", "Matt"] ➞ ["Ryan", "Matt"]
+$arr    = ["Ryan", "Kieran", "Jason", "Matt"];
+$newArr = [];
+foreach ($arr as $str) {
+    if (strlen($str) == 4) {
+        $newArr[] = $str;
+    }
+    continue;
+}
+var_dump($newArr);
+die;
 // 创建一个函数，该函数接受一组名称并返回一个首字母大写的数组。
 $arr    = ['mARIANN', 'jOI', 'gEORGEANN'];
 $newArr = [];

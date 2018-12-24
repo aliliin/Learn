@@ -1,5 +1,35 @@
 <?php
 echo '<pre/>';
+$arr = [2, -1, 4, 8, 10];
+$arr = [-3, -4, -10, -2, -3];
+echo array_sum(array_map('abs', $arr));
+$num = 0;
+foreach ($arr as $abs) {
+    $num += abs($abs);
+}
+var_dump($num);
+die;
+//  创建一个接受字符串并返回其中包含的元音数量（计数）的函数。
+//  "Celebration" ➞ 5
+
+$str = "Celebration";
+$num = strlen(preg_replace('/[^aeiou]/i', '', $str));
+$num = preg_match_all('/[^aeiou]/i', $str);
+var_dump($num);die;
+// 隐藏指定的字符串
+// "4556364607935616" ➞ "############5616"
+
+$str       = "64607935616";
+$strNumber = strlen($str);
+if ($strNumber < 4) {
+    return $str;
+}
+$newStr = substr($str, -4);
+return str_pad($newStr, $strNumber, '#', STR_PAD_LEFT);
+die;
+var_dump($newStr);
+die;
+
 // 创建一个获取数字数组并仅返回偶数值的函数。
 //[1, 2, 3, 4, 5, 6, 7, 8] ➞ [2, 4, 6, 8];
 $array1 = [1, 2, 3, 4, 5, 6, 7, 8];

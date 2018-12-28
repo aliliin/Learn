@@ -1,5 +1,23 @@
 <?php
 echo '<pre/>';
+
+$haystack = 'acbdx';
+$needle   = 'bd';
+echo test::strStr($haystack, $needle);
+
+class test
+{
+    public static function strStr($haystack, $needle)
+    {
+        $arr = explode($needle, $haystack);
+        if (count($arr) > 1) {
+            return strlen($arr[0]);
+        } else {
+            return -1;
+        }
+    }
+}
+die;
 $arr = [2, -1, 4, 8, 10];
 $arr = [-3, -4, -10, -2, -3];
 echo array_sum(array_map('abs', $arr));

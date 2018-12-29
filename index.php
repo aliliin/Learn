@@ -1,13 +1,35 @@
 <?php
 echo '<pre/>';
 
+// 给定一个数字数组，编写一个函数，该函数返回一个数组…
+// [1, 4, 4, 4, 4, 4, 3, 2, 1, 2] ➞ [1, 2, 3, 4]
+$arr = [6, 7, 3, 2, 1];
+$arr = array_unique($arr);
+sort($arr);
+print_r($arr);
+die;
+//创建一个函数，用于交替字符串中字母的大小写。
+// Hello" ➞ "HeLlO
+$str    = 'OMG!!! This website is awesome!!';
+$result = '';
+$upper  = true;
+foreach (str_split(strtolower($str)) as $c) {
+    $result .= $upper ? strtoupper($c) : $c;
+    $upper = !$upper;
+}
+echo $result;
+die;
+
+var_dump($strArr);die;
+echo mb_convert_case('Hello', MB_CASE_TITLE);
+die;
 $haystack = 'acbdx';
 $needle   = 'bd';
 echo test::strStr($haystack, $needle);
 
 class test
 {
-    public static function strStr($haystack, $needle)
+    public function strStr($haystack, $needle)
     {
         $arr = explode($needle, $haystack);
         if (count($arr) > 1) {

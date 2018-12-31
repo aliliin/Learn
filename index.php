@@ -1,6 +1,13 @@
 <?php
 echo '<pre/>';
+// 创建一个函数，该函数接受一个项目数组，删除所有重复的项目，并以与旧数组相同的顺序返回一个新数组（减去重复项
+// ["John", "Taylor", "John"] ➞ ["John", "Taylor"]
+// [1, 0, 1, 0] ➞ [1, 0]
+// ['The', 'big', 'cat'] ➞ ['The', 'big', 'cat']
 
+$arr = ['John', 'Taylor', 'John', 'john'];
+print_r(array_values(array_unique($arr)));
+die;
 // 给定一个数字数组，编写一个函数，该函数返回一个数组…
 // [1, 4, 4, 4, 4, 4, 3, 2, 1, 2] ➞ [1, 2, 3, 4]
 $arr = [6, 7, 3, 2, 1];

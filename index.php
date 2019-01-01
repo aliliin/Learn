@@ -1,5 +1,19 @@
 <?php
 echo '<pre/>';
+
+//"%fd76$fd(-)6GvKlO." ➞ "fd76fd-6GvKlO"
+$str = 'The quick brown fox';
+$arr = str_split($str);
+
+$newStr = '';
+foreach ($arr as $key => $string) {
+    if (ctype_alnum($string)) {
+        $newStr .= $string;
+    } elseif ($string == '_' || $string == '-' || $string == ' ') {
+        $newStr .= $string;
+    }
+}
+echo $newStr;die;
 class Decbin
 {
     public static function countOneNumber($number)

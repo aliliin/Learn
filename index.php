@@ -1,5 +1,16 @@
 <?php
 echo '<pre/>';
+class Decbin
+{
+    public static function countOneNumber($number)
+    {
+        return substr_count(decbin($number), 1);
+    }
+}
+$number    = 1234567890;
+$newNumber = Decbin::countOneNumber($number);
+echo $newNumber;
+die;
 // 创建一个函数，该函数接受一个项目数组，删除所有重复的项目，并以与旧数组相同的顺序返回一个新数组（减去重复项
 // ["John", "Taylor", "John"] ➞ ["John", "Taylor"]
 // [1, 0, 1, 0] ➞ [1, 0]

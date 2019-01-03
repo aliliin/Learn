@@ -1,5 +1,25 @@
 <?php
 echo '<pre/>';
+// 创建一个带有正数和负数数组的函数。返回一个数组，其中第一个元素是正数的计数，第二个元素是负数的总和。
+// [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15]  ➞ [10, -65];
+$arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15];
+
+if (empty($arr)) {
+    return [];
+}
+$positiveNumber = 0;
+$negative       = 0;
+foreach ($arr as $key => $str) {
+    if ($str >= 0) {
+        $positiveNumber++;
+    }
+    if ($str < 0) {
+        $negative += $str;
+    }
+}
+var_dump($positiveNumber);
+var_dump($negative);
+die;
 
 //"%fd76$fd(-)6GvKlO." ➞ "fd76fd-6GvKlO"
 $str = 'The quick brown fox';

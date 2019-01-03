@@ -10,4 +10,5 @@ foreach ($arr as $key => $string) {
         $newStr .= $string;
     }
 }
-echo $newStr;die;
+echo $newStr;
+die;

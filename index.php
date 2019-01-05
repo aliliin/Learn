@@ -1,5 +1,51 @@
 <?php
 echo '<pre/>';
+// 创建一个函数，该函数接受一个字符串并返回一个新的字符串，其中第一个和最后一个字符被交换，除了三个条件：
+//
+// "Cat, dog, and mouse." ➞ ".at, dog, and mouseC"
+// "ada" ➞ "Two's a pair."
+// "Ada" ➞ "adA"
+//  "z" ➞ "Incompatible."
+// [1, 2, 3] ➞ "Incompatible."
+//
+//
+
+// 编写一个带两个字符串并返回（true或false）的函数，无论它们是否为字谜。
+// 'Dave Barry', 'Ray Adverb' ➞ true
+
+$str = [1, 2, 3];
+$str = 'ada';
+$str = 'Ada';
+$str = "Cat, dog, and mouse.";
+if (is_string($str) && strlen($str) > 2) {
+    $arr = str_split($str);
+    $num = count($arr);
+    if ($num === 3) {
+        if ($arr[0] == $arr[2]) {
+            echo "Two's a pair.";
+            die;
+        } else {
+            echo $arr[2] . $arr[1] . $arr[0];
+        }
+    }
+    if ($arr[0] === $arr[$num - 1]) {
+        echo "Two's a pair.";
+    }
+    $newStr = '';
+    foreach ($arr as $key => $string) {
+        if ($key == $num) {
+            var_dump(1);die;
+        }
+        $oneString = $string;
+        var_dump($string);
+
+    }
+
+} else {
+    echo "Incompatible";
+}
+die;
+echo preg_match('/^(\d{6}|\d{4})$/', $pin);
 
 // 创建一个带有正数和负数数组的函数。返回一个数组，其中第一个元素是正数的计数，第二个元素是负数的总和。
 // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15]  ➞ [10, -65];

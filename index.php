@@ -1,14 +1,18 @@
 <?php
+
+require __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . "/TestInterfaceLog.php";
+require_once __DIR__ . "/FileLogger.php";
+require_once __DIR__ . "/DatabaseLogger.php";
+
 echo '<pre/>';
-// 创建一个函数，该函数接受一个字符串并返回一个新的字符串，其中第一个和最后一个字符被交换，除了三个条件：
-//
-// "Cat, dog, and mouse." ➞ ".at, dog, and mouseC"
-// "ada" ➞ "Two's a pair."
-// "Ada" ➞ "adA"
-//  "z" ➞ "Incompatible."
-// [1, 2, 3] ➞ "Incompatible."
-//
-//
+// 文件log 写入
+$fileLogger = new TestInterfaceLog(new FileLogger());
+echo $fileLogger->register('文件');
+
+$databaseLogger = new TestInterfaceLog(new DatabaseLogger());
+echo $databaseLogger->register('数据库');
+die;
 
 // 编写一个带两个字符串并返回（true或false）的函数，无论它们是否为字谜。
 // 'Dave Barry', 'Ray Adverb' ➞ true
@@ -276,38 +280,3 @@ function formatPhoneNumber($numbers)
 }
 echo formatPhoneNumber($numbers);
 die;
-//接口interface 的学习 与 理解
-interface Logger
-{
-    public function save($message);
-}
-class FileLogger implements Logger
-{
-    public function save($message)
-    {
-        var_dump('log into file ' . $message);
-    }
-}
-class DatabaseLogger implements Logger
-{
-    public function save($message)
-    {
-        var_dump('log into database ' . $message);
-    }
-}
-class UserController
-{
-    protected $logger;
-    public function __construct(Logger $logger)
-    {
-        $this->logger = $logger;
-    }
-
-    public function register()
-    {
-        $user = 'gao ';
-        $this->logger->save($user);
-    }
-}
-$controller = new UserController(new FileLogger());
-$controller->register();

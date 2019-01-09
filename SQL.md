@@ -19,3 +19,7 @@
 - bigint 8字节
 - datetime 8字节
 - varchar(8) 8*3字节
+
+5.mysql中联合查询怎么给字段值为null 添加默认值
+
+- ifnull(field,Default) as alias

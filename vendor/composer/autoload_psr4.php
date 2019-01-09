@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Laravist\\' => array($baseDir . '/src'),
+    'Learn\\' => array($baseDir . '/src'),
 );

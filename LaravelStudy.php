@@ -14,18 +14,15 @@ Laravel框架 性能优化总结
 laravel 预加载机制的使用 先确认前端是否需要关联关系中的表的数据,如有需要,可以使用load(),with()命令
 
 laravel 关联关系
-hasOno 		一对一 ,		用户-手机号
-hasMany 	一对多, 		文章-评论
-belongsTo	一对多反向 	评论-文章
-belongsToMany  多对多	用户-角色
+hasOno         一对一 ,        用户-手机号
+hasMany     一对多,         文章-评论
+belongsTo    一对多反向     评论-文章
+belongsToMany  多对多    用户-角色
 hasManyThrough 远程多对多 国家-作者-文章
-morphMany 	多态关联		文章--视频-评论
-morphToMany 多态关联多对多	 文章/视频-标签
-
+morphMany     多态关联        文章--视频-评论
+morphToMany 多态关联多对多     文章/视频-标签
 
 日期显示月份为英文的函数: toFormattedDateString()
-显示一部分内容的函数: str_limit(内容,长度,其他后缀显示什么) 内容,100个字符,显示... 
+显示一部分内容的函数: str_limit(内容,长度,其他后缀显示什么) 内容,100个字符,显示...
 
-
-
-***************************************/
+ ***************************************/

@@ -2,15 +2,486 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab23b6f3-47f0-4b09-8816-bf18df8c573f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Math.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change afterPath="$PROJECT_DIR$/src/Child.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ CallbackFunction.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ CallbackFunction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PHP-Learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PHP-Learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlphabetSoup.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlphabetSoup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankAccount.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankAccount.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CumulativeArraySum.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CumulativeArraySum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseLogger.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DatabaseLogger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoubleChar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoubleChar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileLogger.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileLogger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilterOutStringsFromAnArray.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FilterOutStringsFromAnArray.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FindTheSmallestNumberInAnArray.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindTheSmallestNumberInAnArray.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FindtheMissingNumber.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindtheMissingNumber.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetWordCount.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/GetWordCount.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LaravelStudy.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/LaravelStudy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LightSwitch.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/LightSwitch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Math.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mother.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mother.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PCRE.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PCRE.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Person.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rectangle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rectangle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shape.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shape.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StaticANDSelfDiff.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/StaticANDSelfDiff.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestInterfaceLog.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestInterfaceLog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/App.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/CallableResolver.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/CallableResolverAwareTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Collection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Container.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/DefaultServicesProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/DeferredCallable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Exception/ContainerException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Exception/ContainerValueNotFoundException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Exception/InvalidMethodException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Exception/MethodNotAllowedException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Exception/NotFoundException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Exception/SlimException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Handlers/AbstractError.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Handlers/AbstractHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Handlers/Error.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Handlers/NotAllowed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Handlers/NotFound.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Handlers/PhpError.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Handlers/Strategies/RequestResponse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Handlers/Strategies/RequestResponseArgs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Http/Body.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Http/Cookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Http/Environment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Http/Headers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Http/Message.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Http/Request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Http/RequestBody.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Http/Response.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Http/Stream.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Http/UploadedFile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Http/Uri.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Interfaces/CallableResolverInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Interfaces/CollectionInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Interfaces/Http/CookiesInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Interfaces/Http/EnvironmentInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Interfaces/Http/HeadersInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Interfaces/InvocationStrategyInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Interfaces/RouteGroupInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Interfaces/RouteInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Interfaces/RouterInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/MiddlewareAwareTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Routable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/RouteGroup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/Slim/Router.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/slim/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/composer/autoload_static.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/composer/installed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/.php_cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/doc/01-usage.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/doc/02-handlers-formatters-processors.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/doc/03-utilities.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/doc/04-extending.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/doc/sockets.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/ErrorHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Formatter/ChromePHPFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Formatter/ElasticaFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Formatter/FlowdockFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Formatter/FluentdFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Formatter/FormatterInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Formatter/GelfMessageFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Formatter/HtmlFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Formatter/JsonFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Formatter/LogglyFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Formatter/LogstashFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Formatter/MongoDBFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Formatter/NormalizerFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Formatter/ScalarFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Formatter/WildfireFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/AbstractSyslogHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/AmqpHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/BrowserConsoleHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/BufferHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/ChromePHPHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/CouchDBHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/CubeHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/Curl/Util.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/DeduplicationHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/DoctrineCouchDBHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/DynamoDbHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/ElasticSearchHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/ErrorLogHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/FilterHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ActivationStrategyInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ChannelLevelActivationStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ErrorLevelActivationStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossedHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/FirePHPHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/FleepHookHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/FlowdockHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/GelfHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/GroupHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/HandlerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/HandlerWrapper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/HipChatHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/IFTTTHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/LogEntriesHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/LogglyHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/MailHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/MandrillHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/MissingExtensionException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/MongoDBHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/NativeMailerHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/NewRelicHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/NullHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/PHPConsoleHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/PsrHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/PushoverHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/RavenHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/RedisHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/RollbarHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/SamplingHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/Slack/SlackRecord.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/SlackHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/SlackWebhookHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/SlackbotHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/SocketHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/SwiftMailerHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/SyslogHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/SyslogUdp/UdpSocket.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/SyslogUdpHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/TestHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/WhatFailureGroupHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Handler/ZendMonitorHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Logger.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Processor/GitProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Processor/IntrospectionProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Processor/MemoryPeakUsageProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Processor/MemoryProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Processor/MemoryUsageProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Processor/MercurialProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Processor/ProcessIdProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Processor/PsrLogMessageProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Processor/TagProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Processor/UidProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Processor/WebProcessor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/src/Monolog/Registry.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/ErrorHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Formatter/ChromePHPFormatterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Formatter/ElasticaFormatterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Formatter/FlowdockFormatterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Formatter/FluentdFormatterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Formatter/GelfMessageFormatterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Formatter/JsonFormatterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Formatter/LineFormatterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Formatter/LogglyFormatterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Formatter/LogstashFormatterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Formatter/MongoDBFormatterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Formatter/NormalizerFormatterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Formatter/ScalarFormatterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Formatter/WildfireFormatterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/AbstractHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/AbstractProcessingHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/AmqpHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/BrowserConsoleHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/BufferHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/ChromePHPHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/CouchDBHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/DeduplicationHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/DoctrineCouchDBHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/DynamoDbHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/ElasticSearchHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/ErrorLogHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/FilterHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/FingersCrossedHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/FirePHPHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/Fixtures/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/FleepHookHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/FlowdockHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/GelfHandlerLegacyTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/GelfHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/GelfMockMessagePublisher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/GroupHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/HandlerWrapperTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/HipChatHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/LogEntriesHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/MailHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/MockRavenClient.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/MongoDBHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/NativeMailerHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/NewRelicHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/NullHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/PHPConsoleHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/PsrHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/PushoverHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/RavenHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/RedisHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/RotatingFileHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/SamplingHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/Slack/SlackRecordTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/SlackHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/SlackWebhookHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/SlackbotHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/SocketHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/StreamHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/SwiftMailerHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/SyslogHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/SyslogUdpHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/TestHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/UdpSocketTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/WhatFailureGroupHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Handler/ZendMonitorHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/LoggerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Processor/GitProcessorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Processor/IntrospectionProcessorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Processor/MemoryPeakUsageProcessorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Processor/MemoryUsageProcessorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Processor/MercurialProcessorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Processor/ProcessIdProcessorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Processor/PsrLogMessageProcessorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Processor/TagProcessorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Processor/UidProcessorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/Processor/WebProcessorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/PsrLogCompatTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/RegistryTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/monolog/monolog/tests/Monolog/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/.gitmodules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/.php_cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/bin/build_bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Autoloader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Cache/AbstractCache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Cache/FilesystemCache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Cache/NoopCache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Compiler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Context.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Engine.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Exception/InvalidArgumentException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Exception/LogicException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Exception/RuntimeException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Exception/SyntaxException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Exception/UnknownFilterException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Exception/UnknownHelperException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Exception/UnknownTemplateException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/HelperCollection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/LambdaHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Loader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Loader/ArrayLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Loader/CascadingLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Loader/FilesystemLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Loader/InlineLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Loader/MutableLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Loader/StringLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Logger.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Logger/AbstractLogger.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Logger/StreamLogger.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Parser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/src/Mustache/Tokenizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/AutoloaderTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/Cache/AbstractCacheTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/Cache/FilesystemCacheTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/CompilerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/ContextTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/EngineTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/Exception/SyntaxExceptionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/Exception/UnknownFilterExceptionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/Exception/UnknownHelperExceptionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/Exception/UnknownTemplateExceptionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/FiveThree/Functional/ClosureQuirksTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/FiveThree/Functional/EngineTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/FiveThree/Functional/FiltersTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/FiveThree/Functional/HigherOrderSectionsTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/FiveThree/Functional/LambdaHelperTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/FiveThree/Functional/MustacheSpecTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/FiveThree/Functional/PartialLambdaIndentTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/FiveThree/Functional/StrictCallablesTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/Functional/CallTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/Functional/ExamplesTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/Functional/HigherOrderSectionsTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/Functional/InheritanceTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/Functional/MustacheInjectionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/Functional/MustacheSpecTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/Functional/NestedPartialIndentTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/Functional/ObjectSectionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/FunctionalTestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/HelperCollectionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/Loader/ArrayLoaderTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/Loader/CascadingLoaderTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/Loader/FilesystemLoaderTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/Loader/InlineLoaderTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/Loader/StringLoaderTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/Logger/AbstractLoggerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/Logger/StreamLoggerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/ParserTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/SpecTestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/TemplateTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/Mustache/Test/TokenizerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/autoloader/Mustache/Bar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/autoloader/Mustache/Foo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/autoloader/NonMustacheClass.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/blocks/Blocks.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/blocks/blocks.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/blocks/blocks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/blocks/partials/parent.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/child_context/ChildContext.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/child_context/child_context.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/child_context/child_context.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/comments/Comments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/comments/comments.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/comments/comments.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/complex/complex.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/complex/complex.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/complex/complex.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/delimiters/Delimiters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/delimiters/delimiters.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/delimiters/delimiters.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/dot_notation/DotNotation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/dot_notation/dot_notation.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/dot_notation/dot_notation.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/double_section/DoubleSection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/double_section/double_section.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/double_section/double_section.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/escaped/Escaped.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/escaped/escaped.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/escaped/escaped.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/filters/Filters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/filters/filters.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/filters/filters.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/grand_parent_context/GrandParentContext.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/grand_parent_context/grand_parent_context.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/grand_parent_context/grand_parent_context.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/i18n/I18n.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/i18n/i18n.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/i18n/i18n.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/implicit_iterator/ImplicitIterator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/implicit_iterator/implicit_iterator.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/implicit_iterator/implicit_iterator.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/inverted_double_section/InvertedDoubleSection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/inverted_double_section/inverted_double_section.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/inverted_double_section/inverted_double_section.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/inverted_section/InvertedSection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/inverted_section/inverted_section.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/inverted_section/inverted_section.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/nested_partials/NestedPartials.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/nested_partials/nested_partials.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/nested_partials/nested_partials.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/nested_partials/partials/fourth.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/nested_partials/partials/second.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/nested_partials/partials/third.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/partials/Partials.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/partials/partials.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/partials/partials.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/partials/partials/header.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/recursive_partials/RecursivePartials.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/recursive_partials/partials/child.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/recursive_partials/recursive_partials.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/recursive_partials/recursive_partials.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/section_iterator_objects/SectionIteratorObjects.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/section_iterator_objects/section_iterator_objects.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/section_iterator_objects/section_iterator_objects.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/section_magic_objects/SectionMagicObjects.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/section_magic_objects/section_magic_objects.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/section_magic_objects/section_magic_objects.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/section_objects/SectionObjects.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/section_objects/section_objects.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/section_objects/section_objects.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/sections/Sections.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/sections/sections.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/sections/sections.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/sections_nested/SectionsNested.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/sections_nested/sections_nested.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/sections_nested/sections_nested.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/simple/Simple.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/simple/simple.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/simple/simple.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/unescaped/Unescaped.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/unescaped/unescaped.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/unescaped/unescaped.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/utf8/UTF8.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/utf8/utf8.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/utf8/utf8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/utf8_unescaped/UTF8Unescaped.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/utf8_unescaped/utf8_unescaped.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/utf8_unescaped/utf8_unescaped.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/whitespace/Whitespace.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/whitespace/partials/alphabet.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/whitespace/whitespace.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/examples/whitespace/whitespace.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/templates/alpha.ms" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/templates/beta.ms" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/templates/one.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/mustache/mustache/test/fixtures/templates/two.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/psr/log/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/psr/log/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/psr/log/Psr/Log/AbstractLogger.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/psr/log/Psr/Log/InvalidArgumentException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/psr/log/Psr/Log/LogLevel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/psr/log/Psr/Log/LoggerAwareInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/psr/log/Psr/Log/LoggerAwareTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/psr/log/Psr/Log/LoggerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/psr/log/Psr/Log/LoggerTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/psr/log/Psr/Log/NullLogger.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/psr/log/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/vendor/psr/log/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctypeAlnum.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ctypeAlnum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decbin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/decbin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/example.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaceLogger.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaceLogger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Staff.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Staff.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trait.php" beforeDir="false" afterPath="$PROJECT_DIR$/TestPerson.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -24,108 +495,91 @@
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="1944732571">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="json" value="5" />
+          <entry key="md" value="6" />
+          <entry key="php" value="38" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="5" />
+          <entry key="Markdown" value="6" />
+          <entry key="PHP" value="38" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="json" value="78" />
+          <entry key="php" value="570" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="78" />
+          <entry key="PHP" value="570" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="PHP-Learn" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="example.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="336">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Math.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Math.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Mother.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="714">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Child.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="15" />
-              <folding />
+            <state relative-caret-position="714">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="autoload_classmap.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_classmap.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Math.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="336">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="autoload_namespaces.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_namespaces.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interfaceLogger.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autoload_real.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Person.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Person.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Business.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Business.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autoload_static.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_static.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Staff.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Staff.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="168">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -142,16 +596,27 @@
         <option value="$PROJECT_DIR$/LightSwitch.php" />
         <option value="$PROJECT_DIR$/Mother.php" />
         <option value="$PROJECT_DIR$/Shape.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/Person.php" />
         <option value="$PROJECT_DIR$/src/Business.php" />
         <option value="$PROJECT_DIR$/src/Staff.php" />
         <option value="$PROJECT_DIR$/example.php" />
-        <option value="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
         <option value="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/Math.php" />
+        <option value="$PROJECT_DIR$/TestInterfaceLog.php" />
+        <option value="$PROJECT_DIR$/Exercises.php" />
+        <option value="$PROJECT_DIR$/src/composer.json" />
+        <option value="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/Person.php" />
+        <option value="$PROJECT_DIR$/TestPerson.php" />
+        <option value="$PROJECT_DIR$/src/Logger.php" />
+        <option value="$PROJECT_DIR$/src/DatabaseLogger.php" />
+        <option value="$PROJECT_DIR$/src/interfaceLogger.php" />
+        <option value="$PROJECT_DIR$/src/FileLogger.php" />
+        <option value="$PROJECT_DIR$/src/TestInterfaceLog.php" />
+        <option value="$PROJECT_DIR$/src/Mother.php" />
+        <option value="$PROJECT_DIR$/src/Child.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -161,51 +626,52 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="x" value="1249" />
+    <option name="y" value="29" />
+    <option name="width" value="3360" />
+    <option name="height" value="1867" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP-Learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP-Learn" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="Learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="FullScreen" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -220,44 +686,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
-      <PhpTestRunnerSettings />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
-      <PhpTestRunnerSettings />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -265,31 +693,8 @@
       <tasks />
       <arguments />
       <envs />
-      <method />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -306,11 +711,14 @@
       <workItem from="1493551515310" duration="1088000" />
       <workItem from="1493552735124" duration="410000" />
       <workItem from="1493553246782" duration="3370000" />
+      <workItem from="1546912043220" duration="2967000" />
+      <workItem from="1546939037738" duration="2000" />
+      <workItem from="1547027412648" duration="2601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10555000" />
+    <option name="totallyTimeSpent" value="16125000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -322,437 +730,262 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="1249" y="29" width="3360" height="1867" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16071428" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/task.php">
+    <entry file="file://$PROJECT_DIR$/src/task.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Person.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mother.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shape.php">
+    <entry file="file://$PROJECT_DIR$/src/Shape.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
-          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding />
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+    <entry file="file://$PROJECT_DIR$/src/example.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Person.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Staff.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LightSwitch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="1091">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Business.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="42">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Person.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mother.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shape.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="1" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Person.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_static.php" />
     <entry file="file://$PROJECT_DIR$/src/Staff.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="42">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LightSwitch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/composer/index.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Business.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/SQL.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/高并发解决方案总结.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Person.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/运算符、超全局数组.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mother.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/Linux 常用命令.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shape.php">
+    <entry file="file://$PROJECT_DIR$/Exercises.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="209">
+          <caret line="232" column="19" lean-forward="true" selection-start-line="232" selection-start-column="19" selection-end-line="232" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/常见面试题.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example.php">
+    <entry file="file://$PROJECT_DIR$/src/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="168">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Person.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/PCRE.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Business.php">
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Staff.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LightSwitch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/task.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LightSwitch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Person.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mother.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shape.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="252">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_psr4.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5796">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_classmap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_namespaces.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_static.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Staff.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Business.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="252">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="42">
+          <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Person.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="378">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example.php">
+    <entry file="file://$PROJECT_DIR$/TestPerson.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="336">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Math.php">
+    <entry file="file://$PROJECT_DIR$/src/Rectangle.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LaravelStudy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="336">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StaticANDSelfDiff.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trait.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaceLogger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestInterfaceLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FileLogger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DatabaseLogger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LightSwitch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mother.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Child.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

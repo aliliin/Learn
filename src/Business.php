@@ -1,12 +1,14 @@
 <?php
-namespace  Laravist;
+namespace Laravist;
+
 /**
  * Created by PhpStorm.
  * User: ali
  * Date: 2017/4/30
  * Time: 下午7:26
  */
-class Business{
+class Business
+{
     protected $staff;
 
     public function __construct(Staff $staff)

@@ -1,8 +1,23 @@
 <?php
 require 'vendor/autoload.php';
+use Learn\DependencyInjection\DatabaseConfiguration;
+use Learn\DependencyInjection\DatabaseConnection;
 use \Learn\Child;
 use \Learn\TwoSum;
 echo '<pre/>';
+
+$config = new DatabaseConfiguration('localhost', 3306, 'root', '');
+var_dump($config);
+
+$data = new DatabaseConnection($config);
+
+var_dump($data->getDsn());
+die;
+$string = 'Daily Function Learning';
+$str    = 'F';
+echo strstr($string, $str); // Function Learning
+die;
+
 // 整数反转
 
 // 两数之和

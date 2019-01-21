@@ -1,3 +1,3 @@
 
-#### 安装
-`brew install mongodb`
+##### 安装
+` brew install mongodb `

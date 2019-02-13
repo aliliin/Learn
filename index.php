@@ -3,14 +3,21 @@ require 'vendor/autoload.php';
 use Learn\DependencyInjection\DatabaseConfiguration;
 use Learn\DependencyInjection\DatabaseConnection;
 use \Learn\Child;
+use \Learn\Observer\User;
+use \Learn\Observer\UserObserver;
 use \Learn\TwoSum;
 echo '<pre/>';
-
+echo phpinfo();
+die;
+$observer = new UserObserver();
+$user     = new User();
+$user->attach($observer);
+$user->changeEmail('PHPerali@gmail.com');
+var_dump($observer->getChangedUsers());
+die;
 $config = new DatabaseConfiguration('localhost', 3306, 'root', '');
 var_dump($config);
-
 $data = new DatabaseConnection($config);
-
 var_dump($data->getDsn());
 die;
 $string = 'Daily Function Learning';

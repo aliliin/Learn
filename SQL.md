@@ -61,3 +61,26 @@ Id 是这个表的主键。
 
 ` select id, movie,description,rating from cinema where description != 'boring' and id&1 order by rating desc; `
 ` select * from cinema where mod(id, 2) = 1 and description != 'boring' order by rating DESC; `
+
+8.某网站包含两个表，Customers 表和 Orders 表。编写一个 SQL 查询，找出所有从不订购任何东西的客户。
+Customers 表：
+| Id | Name  |
+|----|-------|
+| 1  | Joe   |
+| 2  | Henry |
+| 3  | Sam   |
+| 4  | Max   |
+Orders 表：
+
+| Id | CustomerId |
+|----|------------|
+| 1  | 3          |
+| 2  | 1          |
+例如给定上述表格，你的查询应返回：
+| Customers |
+|-----------|
+| Henry     |
+| Max       |
+
+` select c.name as Customers from Customers as c where( select count(1) from Orders as o where c.id=o.CustomerId)=0 `
+` select c.name as Customers from Customers as c left join Orders as o on o.CustomerId = c.id where o.CustomerId is null;

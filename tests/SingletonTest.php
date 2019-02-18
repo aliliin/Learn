@@ -1,10 +1,7 @@
 <?php
-
 namespace Learn\Singleton\Tests;
-
 use Learn\Singleton\Singleton;
 use PHPUnit\Framework\TestCase;
-
 /**
  * Class SingletonTest 单例模式 单元测试
  * @package Learn\Singleton\Tests

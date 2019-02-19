@@ -53,13 +53,15 @@ Id 是这个表的主键。
 |   3     | irish     |   boring     |   6.2     |
 |   4     | Ice song  |   Fantacy    |   8.6     |
 |   5     | House card|   Interesting|   9.1     |
+
 对于上面的例子，则正确的输出是为：
+
 |   id    | movie     |  description |  rating   |
 |---------|-----------|--------------|-----------|
 |   5     | House card|   Interesting|   9.1     |
 |   1     | War       |   great 3D   |   8.9     |
 
-` select id, movie,description,rating from cinema where description != 'boring' and id&1 order by rating desc; `
+` select id, movie,description,rating from cinema where description != 'boring' and id&1 order by rating desc; `<br>
 ` select * from cinema where mod(id, 2) = 1 and description != 'boring' order by rating DESC; `
 
 8.某网站包含两个表，Customers 表和 Orders 表。编写一个 SQL 查询，找出所有从不订购任何东西的客户。
@@ -71,36 +73,43 @@ Customers 表：
 | 2  | Henry |
 | 3  | Sam   |
 | 4  | Max   |
+
 Orders 表：
 
 | Id | CustomerId |
 |----|------------|
 | 1  | 3          |
 | 2  | 1          |
+
 例如给定上述表格，你的查询应返回：
+
 | Customers |
 |-----------|
 | Henry     |
 | Max       |
 
-` select c.name as Customers from Customers as c where( select count(1) from Orders as o where c.id=o.CustomerId)=0 `
+` select c.name as Customers from Customers as c where( select count(1) from Orders as o where c.id=o.CustomerId)=0 `<br>
 ` select c.name as Customers from Customers as c left join Orders as o on o.CustomerId = c.id where o.CustomerId is null;`
 
 8.给定一个 salary表，如下所示，有m=男性 和 f=女性的值 。交换所有的 f 和 m 值(例如，将所有 f 值更改为 m，反之亦然)。要求使用一个更新查询，并且没有中间临时表。
 表如下:
+
 | id | name | sex | salary |
 |----|------|-----|--------|
 | 1  | A    | m   | 2500   |
 | 2  | B    | f   | 1500   |
 | 3  | C    | m   | 5500   |
 | 4  | D    | f   | 500    |
+
 运行你所编写的查询语句之后，将会得到以下表:
+
 | id | name | sex | salary |
 |----|------|-----|--------|
 | 1  | A    | f   | 2500   |
 | 2  | B    | m   | 1500   |
 | 3  | C    | f   | 5500   |
 | 4  | D    | m   | 500    |
-可以在SQL语句中使用IF表达式，
-IF 表达式的语法 IF(expr1,expr2,expr3), 如果expr1是TRUE则IF返回 expr2，否则返回 expr3,可以返回字符串或者数字。
-` update salary set sex = if (sex='m','f',m); `
+
+可以在SQL语句中使用IF表达式，<br/>
+IF 表达式的语法 IF(expr1,expr2,expr3), 如果expr1是TRUE则IF返回 expr2，否则返回 expr3,可以返回字符串或者数字。<br/>
+` update salary set sex = if (sex='m','f',m); `<br/>

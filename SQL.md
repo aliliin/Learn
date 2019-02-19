@@ -113,3 +113,20 @@ Orders 表：
 可以在SQL语句中使用IF表达式，<br/>
 IF 表达式的语法 IF(expr1,expr2,expr3), 如果expr1是TRUE则IF返回 expr2，否则返回 expr3,可以返回字符串或者数字。<br/>
 ` update salary set sex = if (sex='m','f',m); `<br/>
+9.编写一个 SQL 查询，查找 Person 表中所有重复的电子邮箱。
+如下表：
+
+| Id | Email   |
+|----|---------|
+| 1  | a@b.com |
+| 2  | c@d.com |
+| 3  | a@b.com |
+
+根据以上输入，你的查询应返回以下结果：
+
+| Email   |
+|---------|
+| a@b.com |
+
+` select Email from Person group by Email having count(*) > 1; `
+

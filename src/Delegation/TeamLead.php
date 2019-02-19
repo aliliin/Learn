@@ -15,7 +15,7 @@ class TeamLead
 
 	public function __construct(JuniorDeveLoper $junior)
 	{
-		$this->junior  = $junior;
+		$this->junior  =  $junior;
 	}
 
 	public function writeCode():string

@@ -6,8 +6,15 @@ use \Learn\Child;
 use \Learn\Observer\User;
 use \Learn\Observer\UserObserver;
 use \Learn\TwoSum;
+use \Learn\TraitLearn\MiPhone;
+use \Learn\TraitLearn\SamsangPhone;
 echo '<pre/>';
-echo phpinfo();
+$mi = new MiPhone('miui');
+$san = new SamsangPhone();
+print_r($san);
+die;
+
+
 die;
 $observer = new UserObserver();
 $user     = new User();

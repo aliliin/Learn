@@ -5,15 +5,14 @@ use Learn\DependencyInjection\DatabaseConnection;
 use \Learn\Child;
 use \Learn\Observer\User;
 use \Learn\Observer\UserObserver;
-use \Learn\TwoSum;
 use \Learn\TraitLearn\MiPhone;
 use \Learn\TraitLearn\SamsangPhone;
+use \Learn\TwoSum;
 echo '<pre/>';
-$mi = new MiPhone('miui');
+$mi  = new MiPhone('miui');
 $san = new SamsangPhone();
 print_r($san);
 die;
-
 
 die;
 $observer = new UserObserver();

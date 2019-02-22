@@ -5,6 +5,8 @@
 
 - 常用的查询字段建立联合索引，写SQL一定要尊从最左原则，用到这个索引。
 
+-  不要把逻辑运算放到sql里 
+
 2、数据库中的事务是什么？
 - 事务（transaction）是作为一个单元的一组有序的数据库操作。如果组中的所有操作都成功，则认为事务成功，即使只有一个操作失败，事务也不成功。如果所有操作完成，
 
@@ -149,3 +151,51 @@ IF 表达式的语法 IF(expr1,expr2,expr3), 如果expr1是TRUE则IF返回 expr2
 
 ` select e.Name as Employee from Employee as e,Employee as e1 where e.ManagerId = e1.Id and e.Salary > e1.Salary; `
 
+11.部门工资最高的员工。
+
+Employee 表包含所有员工信息，每个员工有其对应的 Id, salary 和 department Id。
+
+
+| Id | Name  | Salary | DepartmentId |
+|----|-------|--------|--------------|
+| 1  | Joe   | 70000  | 1            |
+| 2  | Henry | 80000  | 2            |
+| 3  | Sam   | 60000  | 2            |
+| 4  | Max   | 90000  | 1            |
+
+
+Department 表包含公司所有部门的信息。
+
+| Id | Name     |
+|----|----------|
+| 1  | IT       |
+| 2  | Sales    |
+
+
+编写一个 SQL 查询，找出每个部门工资最高的员工。例如，根据上述给定的表格，Max 在 IT 部门有最高工资，Henry 在 Sales 部门有最高工资。
+
+| Department | Employee | Salary |
+|------------|----------|--------|
+| IT         | Max      | 90000  |
+| Sales      | Henry    | 80000  |
+
+``` 
+SELECT d.Name AS Department, e.Name AS Employee, e.Salary AS Salary
+FROM Employee e
+    LEFT JOIN Department d ON d.id = e.DepartmentId
+WHERE e.Salary = (
+    SELECT MAX(Salary)
+    FROM Employee
+    WHERE DepartmentId = d.Id
+);
+
+SELECT d.Name AS Department, e.Name AS Employee, e.Salary AS Salary
+FROM Employee e
+    INNER JOIN Department d
+WHERE d.id = e.DepartmentId
+    AND e.Salary = (
+        SELECT MAX(Salary)
+        FROM Employee
+        WHERE DepartmentId = d.Id
+    );
+```

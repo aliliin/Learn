@@ -5,11 +5,17 @@ use Learn\DependencyInjection\DatabaseConnection;
 use \Learn\Child;
 use \Learn\Observer\User;
 use \Learn\Observer\UserObserver;
+use \Learn\SimpleFactory\SimpleFactory;
 use \Learn\TraitLearn\MiPhone;
 use \Learn\TraitLearn\SamsangPhone;
 use \Learn\TwoSum;
 
 echo '<pre/>';
+$factory = new SimpleFactory();
+$bicycle = $factory->createBicycle();
+$bicycle->driveTo('Paris');
+
+die;
 class KthLargest
 {
     private $numArr = [];

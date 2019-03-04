@@ -1,7 +1,5 @@
 <?php
 
-
-
 // 编写一个带两个字符串并返回（true或false）的函数，无论它们是否为字谜。
 // 'Dave Barry', 'Ray Adverb' ➞ true
 

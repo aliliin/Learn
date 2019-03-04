@@ -199,3 +199,9 @@ WHERE d.id = e.DepartmentId
         WHERE DepartmentId = d.Id
     );
 ```
+
+12. test表中数据有500w，字段有id/t_id/type_id/plat_id，语句为select max(t_id) from test where type_id=1 and plat_id=1
+
+正确做法是给`t_id`加索引，还有(type_id/plat_id)联合索引，order by 并不能避免全表扫描。
+`select t_id from test where type_id=1 and plat_id=1 order by t_id desc limit 1;`
+

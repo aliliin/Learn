@@ -11,6 +11,23 @@ use \Learn\TraitLearn\SamsangPhone;
 use \Learn\TwoSum;
 
 echo '<pre/>';
+
+$closure = function ($name) {
+    echo sprintf("Hello %s", $name);
+};
+echo $closure("Aliliin");
+// 检查是不是闭包函数
+var_dump($closure instanceof Closure);
+function Car($name)
+{
+    return function ($statu) use ($name) {
+        return sprintf("Car %s is %s", $name, $statu);
+    };
+};
+$car = Car("aa");
+echo $car('run ');
+die;
+
 $factory = new SimpleFactory();
 $bicycle = $factory->createBicycle();
 $bicycle->driveTo('Paris');

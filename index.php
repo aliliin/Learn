@@ -6,12 +6,141 @@ use \Learn\Child;
 use \Learn\Observer\User;
 use \Learn\Observer\UserObserver;
 use \Learn\SimpleFactory\SimpleFactory;
+use \Learn\TestClosure;
 use \Learn\TraitLearn\MiPhone;
 use \Learn\TraitLearn\SamsangPhone;
 use \Learn\TwoSum;
 
 echo '<pre/>';
+class Courier implements Countable
+{
+    protected $count = 0;
+    public function ship(Parcel $parcel)
+    {
+        $this->count++;
+        return true;
+    }
+    public function count()
+    {
+        return $this->count;
+    }
+}
+$courier =new Courier()
+var_dump($courier);
+die;
 
+$channels = include './channels.php';
+$game     = include './game_server.php';
+$pay      = include './Pay_All.php';
+$cun      = include './cunliang_20190505.php';
+
+$server = array();
+foreach ($game as $id) {
+    $server[$id['area_id']] = $id['sname'];
+}
+$channelArr = array();
+foreach ($channels as $channel) {
+    $channelArr[$channel['pid']] = $channel['channel_name'];
+}
+$cunArr = array();
+foreach ($cun as $c) {
+    $cunArr[$c['RoleId']] = $c['RoleName'];
+}
+$newArr = array();
+$a      = '';
+$i      = 1;
+foreach ($pay as $key => $value) {
+    ;
+    $newArr[$key]['GameSvrId']    = empty($server[$value['GameSvrId']]) ? $value['GameSvrId'] : $server[$value['GameSvrId']];
+    $newArr[$key]['LoginChannel'] = empty($channelArr[$value['LoginChannel']]) ? $value['LoginChannel'] : $channelArr[$value['LoginChannel']];
+    $newArr[$key]['Roleid']       = empty($cunArr[$value['Roleid']]) ? $value['Roleid'] : $cunArr[$value['Roleid']];
+    $newArr[$key]['rmb']          = $value['rmb'];
+    $newArr[$key]['vopenid']      = $value['vopenid'];
+    $a .= $value['Roleid'] . ',';
+    $i++;
+}
+
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<div >
+<table border="1" bordercolor="#000000" cellspacing="0" cellpadding="2" style="border-collapse:collapse;">
+<tr>
+    <td>服务器名称</td>
+    <td>渠道名称</td>
+    <td>角色名称</td>
+    <td>充值金额</td>
+</tr>
+<?php foreach ($newArr as $key => $value) {
+    echo '<tr>';
+    echo '<td>' . $value['GameSvrId'] . '</td>';
+    echo '<td>' . $value['LoginChannel'] . '</td>';
+    echo '<td>' . $value['Roleid'] . '</td>';
+    echo '<td>' . $value['rmb'] . '</td>';
+
+}
+echo '</tr>';
+?>
+
+</table>
+    </div>
+</body>
+<style>
+  body {
+    margin: 0;
+  }
+</style>
+</html>
+<?php
+
+die;
+print_r($newArr);
+die;
+
+var_dump($channels);
+die;
+die;
+
+// ini_set('memory_limit', '16384M');
+// $array = array_map('str_getcsv', file('./MoneyFlow2.csv'));
+
+// 共同接口
+interface db
+{
+    public function conn();
+}
+// 服务端开发（不知道会被谁调用）
+class dbMysql
+{
+    public function conn()
+    {
+        echo 'suessce';
+    }
+}
+
+class dbsqlite
+{
+    public function conn()
+    {
+        echo 'suessce';
+    }
+}
+die;
+// ini_set('memory_limit', '16384M');
+// $array = array_map('str_getcsv', file('./MoneyFlow2.csv'));
+print_r($array);
+$person = new TestClosure();
+$person->addPerson("Aliliin", function () {
+    $this->age = 28;
+    $this->sex = "man";
+});
+
+$person->display("Aliliin");
+die;
 $closure = function ($name) {
     echo sprintf("Hello %s", $name);
 };
@@ -26,7 +155,6 @@ function Car($name)
 };
 $car = Car("aa");
 echo $car('run ');
-die;
 
 $factory = new SimpleFactory();
 $bicycle = $factory->createBicycle();

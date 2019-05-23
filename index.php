@@ -3,6 +3,8 @@ require 'vendor/autoload.php';
 use Learn\DependencyInjection\DatabaseConfiguration;
 use Learn\DependencyInjection\DatabaseConnection;
 use \Learn\Child;
+use \Learn\Courier;
+use \Learn\Curl;
 use \Learn\Observer\User;
 use \Learn\Observer\UserObserver;
 use \Learn\SimpleFactory\SimpleFactory;
@@ -12,21 +14,29 @@ use \Learn\TraitLearn\SamsangPhone;
 use \Learn\TwoSum;
 
 echo '<pre/>';
-class Courier implements Countable
-{
-    protected $count = 0;
-    public function ship(Parcel $parcel)
-    {
-        $this->count++;
-        return true;
-    }
-    public function count()
-    {
-        return $this->count;
-    }
+var_dump(new Curl());
+die;
+$secondCall = new Courier();
+var_dump($secondCall);die;
+// $secondCall = new PDO('mysql:host=mysql;dbname=yaf1', 'root', 'root');
+
+$stmt = $secondCall->query('select * from art');
+
+var_dump($stmt->fetch());
+die;
+
+$mycourier = new Courier();
+var_dump($mycourier);
+// echo serialize($mycourier); // 序列化一个对象
+// echo unserialize($mycourier); // 反序列化一个对象
+// echo $mycourier;
+die;
+try {
+    $db = new PDO('mysql:host=nonsense');
+    echo "Connected to database";
+} catch (Exception $e) {
+    echo "Oops!" . $e->getMessage();
 }
-$courier =new Courier()
-var_dump($courier);
 die;
 
 $channels = include './channels.php';

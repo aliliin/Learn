@@ -13,16 +13,24 @@ use \Learn\TestClosure;
 use \Learn\TraitLearn\MiPhone;
 use \Learn\TraitLearn\SamsangPhone;
 use \Learn\TwoSum;
+use \Learn\MagicMethods;
 
-
-
+echo '<pre/>';
+$magicMethods = new MagicMethods();
+echo $magicMethods;
+var_dump($magicMethods('2343232'));
+var_dump($magicMethods->dd(1,'0k'));
+var_dump($magicMethods::dd(1,'static'));
+die;
+$magicMethods->setAbc('set private attribute');
+echo $magicMethods->getAbc();
+echo '<br/>';
+$magicMethods->abc = '34sdfs';
+echo $magicMethods->abc;
+die;
 
 // echo '<pre/>';
-$requestData = '{
-                "OrderCode": "",
-                "ShipperCode": "YTO",
-                "LogisticCode": "805741929402797742"
-                }';
+$requestData = '{"OrderCode": "","ShipperCode": "YTO","LogisticCode": "805741929402797742"}';
 $Kdniao = Kdniao::getOrderTracesByJson($requestData);
 echo $Kdniao;
 die;

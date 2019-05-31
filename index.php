@@ -5,6 +5,7 @@ use Learn\DependencyInjection\DatabaseConnection;
 use \Learn\Child;
 use \Learn\Courier;
 use \Learn\Curl;
+use \Learn\Kdniao;
 use \Learn\Observer\User;
 use \Learn\Observer\UserObserver;
 use \Learn\SimpleFactory\SimpleFactory;
@@ -13,9 +14,19 @@ use \Learn\TraitLearn\MiPhone;
 use \Learn\TraitLearn\SamsangPhone;
 use \Learn\TwoSum;
 
-echo '<pre/>';
-var_dump(new Curl());
+
+
+
+// echo '<pre/>';
+$requestData = '{
+                "OrderCode": "",
+                "ShipperCode": "YTO",
+                "LogisticCode": "805741929402797742"
+                }';
+$Kdniao = Kdniao::getOrderTracesByJson($requestData);
+echo $Kdniao;
 die;
+
 $secondCall = new Courier();
 var_dump($secondCall);die;
 // $secondCall = new PDO('mysql:host=mysql;dbname=yaf1', 'root', 'root');

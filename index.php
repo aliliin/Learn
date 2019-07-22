@@ -12,54 +12,25 @@ use \Learn\TraitLearn\SamsangPhone;
 use \Learn\TwoSum;
 
 echo '<pre/>';
-class Courier implements Countable
-{
-    protected $count = 0;
-    public function ship(Parcel $parcel)
-    {
-        $this->count++;
-        return true;
-    }
-    public function count()
-    {
-        return $this->count;
-    }
-}
-$courier =new Courier()
-var_dump($courier);
-die;
-
-$channels = include './channels.php';
-$game     = include './game_server.php';
-$pay      = include './Pay_All.php';
-$cun      = include './cunliang_20190505.php';
+ini_set('memory_limit', '16384M');
+$pay  = array_map('str_getcsv', file('./Pay_All.csv'));
+$game = array_map('str_getcsv', file('./game_server.csv'));
 
 $server = array();
 foreach ($game as $id) {
-    $server[$id['area_id']] = $id['sname'];
+    $server[$id[0]] = $id['1'];
 }
-$channelArr = array();
-foreach ($channels as $channel) {
-    $channelArr[$channel['pid']] = $channel['channel_name'];
-}
-$cunArr = array();
-foreach ($cun as $c) {
-    $cunArr[$c['RoleId']] = $c['RoleName'];
-}
-$newArr = array();
-$a      = '';
-$i      = 1;
+$newArray = array();
 foreach ($pay as $key => $value) {
-    ;
-    $newArr[$key]['GameSvrId']    = empty($server[$value['GameSvrId']]) ? $value['GameSvrId'] : $server[$value['GameSvrId']];
-    $newArr[$key]['LoginChannel'] = empty($channelArr[$value['LoginChannel']]) ? $value['LoginChannel'] : $channelArr[$value['LoginChannel']];
-    $newArr[$key]['Roleid']       = empty($cunArr[$value['Roleid']]) ? $value['Roleid'] : $cunArr[$value['Roleid']];
-    $newArr[$key]['rmb']          = $value['rmb'];
-    $newArr[$key]['vopenid']      = $value['vopenid'];
-    $a .= $value['Roleid'] . ',';
-    $i++;
+    if (!empty($server[$value[0]])) {
+        $newArray[$key]['servername'] = $server[$value[0]];
+        $newArray[$key]['server']     = $value[0];
+        $newArray[$key]['role']       = $value[1];
+        $newArray[$key]['allM']       = $value[2];
+        $newArray[$key]['time']       = $value[3];
+        $newArray[$key]['money']      = $value[4];
+    }
 }
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -70,17 +41,21 @@ foreach ($pay as $key => $value) {
 <div >
 <table border="1" bordercolor="#000000" cellspacing="0" cellpadding="2" style="border-collapse:collapse;">
 <tr>
+    <td>服务器ID</td>
     <td>服务器名称</td>
-    <td>渠道名称</td>
     <td>角色名称</td>
-    <td>充值金额</td>
+    <td>第一次充值时间</td>
+    <td>第一次充值金额</td>
+    <td>累计充值总金额</td>
 </tr>
-<?php foreach ($newArr as $key => $value) {
+<?php foreach ($newArray as $key => $value) {
     echo '<tr>';
-    echo '<td>' . $value['GameSvrId'] . '</td>';
-    echo '<td>' . $value['LoginChannel'] . '</td>';
-    echo '<td>' . $value['Roleid'] . '</td>';
-    echo '<td>' . $value['rmb'] . '</td>';
+    echo '<td>' . $value['server'] . '</td>';
+    echo '<td>' . $value['servername'] . '</td>';
+    echo '<td>' . $value['role'] . '</td>';
+    echo '<td>' . $value['time'] . '</td>';
+    echo '<td>' . $value['money'] . '</td>';
+    echo '<td>' . $value['allM'] . '</td>';
 
 }
 echo '</tr>';

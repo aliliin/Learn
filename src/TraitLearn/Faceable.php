@@ -1,5 +1,6 @@
 <?php
 
+//  trait比父类优先，子类比trait优先
 namespace Learn\TraitLearn;
 
 // 小米手机、三星手机、 都有面部识别功能

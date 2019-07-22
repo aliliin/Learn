@@ -3,6 +3,9 @@ require 'vendor/autoload.php';
 use Learn\DependencyInjection\DatabaseConfiguration;
 use Learn\DependencyInjection\DatabaseConnection;
 use \Learn\Child;
+use \Learn\Courier;
+use \Learn\Curl;
+use \Learn\Kdniao;
 use \Learn\Observer\User;
 use \Learn\Observer\UserObserver;
 use \Learn\SimpleFactory\SimpleFactory;
@@ -10,11 +13,61 @@ use \Learn\TestClosure;
 use \Learn\TraitLearn\MiPhone;
 use \Learn\TraitLearn\SamsangPhone;
 use \Learn\TwoSum;
+use \Learn\MagicMethods;
 
 echo '<pre/>';
+<<<<<<< HEAD
 ini_set('memory_limit', '16384M');
 $pay  = array_map('str_getcsv', file('./Pay_All.csv'));
 $game = array_map('str_getcsv', file('./game_server.csv'));
+=======
+$magicMethods = new MagicMethods();
+echo $magicMethods;
+var_dump($magicMethods('2343232'));
+var_dump($magicMethods->dd(1,'0k'));
+var_dump($magicMethods::dd(1,'static'));
+die;
+$magicMethods->setAbc('set private attribute');
+echo $magicMethods->getAbc();
+echo '<br/>';
+$magicMethods->abc = '34sdfs';
+echo $magicMethods->abc;
+die;
+
+// echo '<pre/>';
+$requestData = '{"OrderCode": "","ShipperCode": "YTO","LogisticCode": "805741929402797742"}';
+$Kdniao = Kdniao::getOrderTracesByJson($requestData);
+echo $Kdniao;
+die;
+
+$secondCall = new Courier();
+var_dump($secondCall);die;
+// $secondCall = new PDO('mysql:host=mysql;dbname=yaf1', 'root', 'root');
+
+$stmt = $secondCall->query('select * from art');
+
+var_dump($stmt->fetch());
+die;
+
+$mycourier = new Courier();
+var_dump($mycourier);
+// echo serialize($mycourier); // 序列化一个对象
+// echo unserialize($mycourier); // 反序列化一个对象
+// echo $mycourier;
+die;
+try {
+    $db = new PDO('mysql:host=nonsense');
+    echo "Connected to database";
+} catch (Exception $e) {
+    echo "Oops!" . $e->getMessage();
+}
+die;
+
+$channels = include './channels.php';
+$game     = include './game_server.php';
+$pay      = include './Pay_All.php';
+$cun      = include './cunliang_20190505.php';
+>>>>>>> 4424b49a63382e73675c1959102f7ec916a6bd73
 
 $server = array();
 foreach ($game as $id) {
